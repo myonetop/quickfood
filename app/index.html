@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+    <!-- Make the page mobile compatible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>QuickFood - Quality delivery or take away food</title>
+    
+    <!-- GOOGLE WEB FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
+
+    <link href="animate.min.css" rel='stylesheet' type='text/css'>
+    <link href="bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <link href="menu.css" rel='stylesheet' type='text/css'>
+    <link href="style.css" rel='stylesheet' type='text/css'>
+    <link href="responsive.css" rel='stylesheet' type='text/css'>
+    <link href="elegant_font.min.css" rel='stylesheet' type='text/css'>
+    <link href="fontello.min.css" rel='stylesheet' type='text/css'>
+    <link href="magnific-popup.css" rel='stylesheet' type='text/css'>
+    <link href="pop_up.css" rel='stylesheet' type='text/css'>
+    <link href="custom.css" rel='stylesheet' type='text/css'>
+   
+    <script type="text/javascript" src="modernizr.js"></script> 
+
+  </head>
+  <body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
+
+    <!-- The app hooks into this div -->
+    <div id="app">hgdgjdsjgfdjg</div>
+    <!-- A lot of magic happens in this file. HtmlWebpackPlugin automatically includes all assets (e.g. bundle.js, main.css) with the correct HTML tags, which is why they are missing in this HTML file. Don't add any assets here! (Check out webpackconfig.js if you want to know more) -->
+  
+    <!-- COMMON SCRIPTS -->
+    <script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="common_scripts_min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+    <script type="text/javascript" src="validate.js"></script>
+    
+    <script type="text/javascript" src="video_header.js"></script>
+    <script>
+    $(document).ready(function() {
+      'use strict';
+          HeaderVideo.init({
+          container: $('.header-video'),
+          header: $('.header-video--media'),
+          videoTrigger: $("#video-trigger"),
+          autoPlayVideo: true
+        });    
+
+    });
+    </script>
+  </body>
+</html>
